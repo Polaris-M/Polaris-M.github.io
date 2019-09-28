@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.9.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="IntroductionIn this project-based research, I focus on predicting the call option pricing using both mathematical modelling method, namely Black-Schol">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Jiacheng Shi">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Project Summary">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="IntroductionIn this project-based research, I focus on predicting the call option pricing using both mathematical modelling method, namely Black-Schol">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Jiacheng Shi&#39;s blog">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+
+    
+        <meta name="twitter:image" content="http://yoursite.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>Project Summary - Jiacheng Shi&#39;s blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Jiacheng Shi's blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/Polaris-M">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Project Summary</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2019-09-28
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In this project-based research, I focus on predicting the call option pricing using both mathematical modelling method, namely Black-Scholes model and simulation method, Monte-Carlo simulation. Furthermore, the pricing model will be calculated in python by Numpy module to accelerate computation. In the end, I try to calculate implied volatility for the market by using Brent algorithm.</p>
+<p>Option is a classical financial derivative which gives the buyer the right to buy or sell the asset at a preset price (strike price). The buyer can choose to exercise the option regardless of market price. Thus, if the strike price is lower than market price, buyer of the option can choose to buy in the stock at the strike price to gain profit. Usually option is used as a stimulation for buyer inside the company or as an investment instrument. Naturally, a pricing problem rose, one would like to know given current market environment, what is a proper price for an option, which is equivalent to the pricing of the right to buy or sell the asset at the strike price. </p>
+<p>Two methods for option pricing<br>Black-Scholes model is a classical European option pricing model. To utilize BS model for option price modelling, several assumptions are made. </p>
+<ul>
+<li>No dividends are paid out during the life of the option.</li>
+<li>Markets are efficient (i.e., market movements cannot be predicted).</li>
+<li>There are no transaction costs in buying the option.</li>
+<li>The risk-free rate and volatility of the underlying are known and constant.</li>
+<li>The returns on the underlying are normally distributed.</li>
+</ul>
+<p>Given the assumptions, the pricing of a stock can be induced as a stochastic and Markov process, meaning that the current information contains all the information needed for future prediction. The movement of a stock price is considered as a Brownian motion. More precisely, a Brownian motion with drift is used to describe the stock price. The analytical solution of a Brownian motion with drift require Ito’s lemma. However, in this project, I use python built-in normal distribution functions to calculate the final result of an option pricing. The Black-Scholes model is given in equation 1, where S is the spot price, K strike price, r risk-free interest rate, τ maturity, σ volatility rate of the market and N(x) the cumulative probability density function of a normal distribution. The Call option price is the calculated option price. The calculation process is realized with python code. For example, if we want to know the option price for a stock with spot 2.45, strike 2.5, maturity 0.25, risk-free interest rate 0.05 and volatility rate 0.25, then the option price can be calculated using math and Scipy library. The price of the option is 0.1133</p>
+<p><img src="/2019/09/28/Project-Summary/1.png" alt="1.png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> log, sqrt, exp</span><br><span class="line"><span class="keyword">from</span> scipy.stats <span class="keyword">import</span> norm</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">call_option_pricer</span><span class="params">(spot, strike, maturity, r, vol)</span>:</span></span><br><span class="line">    </span><br><span class="line">    d1 = (log(spot/strike) + (r + <span class="number">0.5</span> * vol *vol) * maturity) / vol / sqrt(maturity)</span><br><span class="line">    d2 = d1 - vol * sqrt(maturity)</span><br><span class="line">    </span><br><span class="line">    price = spot * norm.cdf(d1) - strike * exp(-r*maturity) * norm.cdf(d2)</span><br><span class="line">    <span class="keyword">return</span> price</span><br><span class="line"></span><br><span class="line">print(<span class="string">'option price: %.4f'</span> % call_option_pricer(spot, strike, maturity, r, vol))</span><br></pre></td></tr></table></figure>
+
+<p>Another price prediction model for option price is Monte-Carlo simulation. It has a totally different approach to the same problem. For a stock, we can describe the stock price using a Brownian motion with drift as mentioned above.</p>
+<p><img src="/2019/09/28/Project-Summary/2.png" alt="2.png"></p>
+<p>Using Ito lemma, taking logarithm of S, and integration of both sides, we find the formula for stock price changing with time and the price of the option</p>
+<p><img src="/2019/09/28/Project-Summary/3.png" alt="3.png"></p>
+<p><img src="/2019/09/28/Project-Summary/4.png" alt="4.png"></p>
+<p>One simulation reaches the result of option price 0.1128 by the following code.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">call_option_pricer_monte_carlo</span><span class="params">(spot, strike, maturity, r, vol, numOfPath = <span class="number">5000</span>)</span>:</span></span><br><span class="line">    randomSeries = scipy.random.randn(numOfPath)</span><br><span class="line">    s_t = spot * np.exp((r - <span class="number">0.5</span> * vol * vol) * maturity + randomSeries * vol * sqrt(maturity))</span><br><span class="line">    sumValue = np.maximum(s_t - strike, <span class="number">0.0</span>).sum()</span><br><span class="line">    price = exp(-r*maturity) * sumValue / numOfPath</span><br><span class="line">    <span class="keyword">return</span> price</span><br><span class="line"></span><br><span class="line">print( <span class="string">'option price : %.4f'</span> % call_option_pricer_monte_carlo(spot, strike, maturity, r, vol))</span><br></pre></td></tr></table></figure>
+
+<p>However, as Monte-Carlo simulation takes random number as the input, thus we need a large number of inputs for the function to converge. We also calculate the 95% confidence interval of the option price. As we can see from the figure, the final result converges at around 0.113, which is close to Black-Scholes model. The coding is following.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">pathScenario = range(<span class="number">1000</span>, <span class="number">50000</span>, <span class="number">1000</span>)</span><br><span class="line">numberOfTrials = <span class="number">100</span></span><br><span class="line"></span><br><span class="line">confidenceIntervalUpper = []</span><br><span class="line">confidenceIntervalLower = []</span><br><span class="line">means = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> scenario <span class="keyword">in</span> pathScenario:</span><br><span class="line">    res = np.zeros(numberOfTrials)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(numberOfTrials):</span><br><span class="line">        res[i] = call_option_pricer_monte_carlo(spot, strike, maturity, r, vol, numOfPath = scenario)</span><br><span class="line">    means.append(res.mean())</span><br><span class="line">    confidenceIntervalUpper.append(res.mean() + <span class="number">1.96</span>*res.std())</span><br><span class="line">    confidenceIntervalLower.append(res.mean() - <span class="number">1.96</span>*res.std())</span><br><span class="line"></span><br><span class="line">plt.figure(figsize = (<span class="number">12</span>,<span class="number">8</span>))</span><br><span class="line">plt.grid(<span class="literal">True</span>)</span><br><span class="line">tabel = np.array([means,confidenceIntervalUpper,confidenceIntervalLower]).T</span><br><span class="line">plt.plot(pathScenario, tabel)</span><br><span class="line">plt.title(<span class="string">'Monte Carlo Simulation on Option Calculation'</span>, fontsize = <span class="number">30</span>)</span><br><span class="line">plt.legend([<span class="string">'Mean'</span>, <span class="string">'Upper Bound of 95% Confidence Interval'</span>, <span class="string">'Lower Bound of 95% Confidence Interval'</span>])</span><br><span class="line">plt.ylabel(<span class="string">'Price'</span>, fontsize = <span class="number">15</span>)</span><br><span class="line">plt.xlabel(<span class="string">'Number of Simulations'</span>, fontsize = <span class="number">15</span>)</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2019/09/28/Project-Summary/5.png" alt="5.png"></p>
+<h3 id="Implied-volatility"><a href="#Implied-volatility" class="headerlink" title="Implied volatility"></a>Implied volatility</h3><p>Finding the price of an option requires the knowledge of the market. Particularly, we need to know the volatility of the market, since other four parameters are easy to obtain. When using the model, we assume that we know the volatility so that we can do the calculation or the simulation of option price. However, in reality, we seldom have full knowledge of volatility. In some cases, we know the option price for a stock and other four parameters, we want to find the implied volatility for the market. It is the inverse process of BS model. To solve this problem, we implement Brent algorithm to find the results in a numerical way. The Brent algorithm is a combination of bisection method, secant method and inverse quadratic interpolation. I realize the Brent algorithm by defining a class in Python. After numerical computation, the function returns the implied volatility of 25%, which is exactly the assumption used in the first stage of this research. </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> scipy.optimize <span class="keyword">import</span> brentq</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">cost_function</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, target)</span>:</span></span><br><span class="line">        self.targetValue = target</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__call__</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> call_option_pricer(spot, strike, maturity, r, x) - self.targetValue</span><br><span class="line"></span><br><span class="line">target = call_option_pricer(spot, strike, maturity, r, vol)</span><br><span class="line">cost_sampel = cost_function(target)</span><br><span class="line"></span><br><span class="line">impliedVol = brentq(cost_sampel, <span class="number">0.01</span>, <span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> (<span class="string">'true volatility： %.2f'</span> % (vol*<span class="number">100</span>,) + <span class="string">'%'</span>)</span><br><span class="line"><span class="keyword">print</span> (<span class="string">'implied volatility： %.2f'</span> % (impliedVol*<span class="number">100</span>,) + <span class="string">'%'</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>In this project I focus on the option price calculation. A classical problem is that given market information and stock price, how we can evaluate the price of an option. Two methods are used in evaluation, namely the Black-Scholes model and Monte-Carlo simulation. The BS model returns a precise result of the option while simulation returns a numerical result after convergence. Two methods yield similar results. Moreover, given option prices, we can infer the implied volatility for the market by using Brent algorithm, which is also a numerical solution. </p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/Polaris-M" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2019 Jiacheng Shi<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
